@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Crimson+Text:wght@600&family=Fugaz+One&family=Libre+Baskerville:wght@700&family=Roboto:wght@400;500&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    
+}
+
+.title{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    border-bottom: 4px solid rgb(90, 5, 62);
+    font-size: 3rem;
+    color: #fff;
+    background-color: rgb(212, 54, 160);
+}
+
+.container{
+    margin: 5rem 20rem;
+    background-color:aqua;
+    border: 5px solid rgb(128, 7, 81);
+    border-radius: 25px;
+}
+.menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+.dishes h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.dishes ul{
+    list-style: none;
+    padding: 0;
+}
+
+.dishes ul li{
+    color:brown;
+    font-weight: 400    ;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom:1.2rem;
+}
+.priceList li{
+    color: red !important;
+}
+
+.menuForm{
+    text-align: center;
+    margin: 2rem
+}
+.menuForm input{
+    width: 60%;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+}
+.btn{
+    text-align: center;
+}
+.btn .click{
+    background-color: black;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 2rem;
+}
